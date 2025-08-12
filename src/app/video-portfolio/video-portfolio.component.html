@@ -1,0 +1,10 @@
+<section class="video-portfolio">
+  <h2>Video Portfolio</h2>
+  <div class="videos-grid">
+    <div *ngFor="let video of videos" class="video-card">
+      <iframe width="360" height="215" [src]="video.url | safeUrl" frameborder="0" allowfullscreen></iframe>
+      <h3>{{ video.title }}</h3>
+      <p>{{ video.description }}</p>
+    </div>
+  </div>
+</section>

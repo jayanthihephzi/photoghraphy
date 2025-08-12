@@ -1,0 +1,29 @@
+.skills {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f9f6f0;
+}
+
+.skills h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #5a4a2f;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.15rem;
+  color: #6b5e3a;
+}
+
+.icon {
+  font-size: 1.7rem;
+  margin-right: 8px;
+}

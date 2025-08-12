@@ -1,0 +1,21 @@
+<section class="portfolio-showcase">
+  <h2 class="headline">PHOTO PORTFOLIO <span class="theme-accent">THEME</span></h2>
+  <div class="portfolio-grid">
+    <div class="page-card" *ngFor="let card of cards">
+      <img [src]="card.img" [alt]="card.title" />
+      <div class="card-overlay">
+        <h3>{{ card.title }}</h3>
+      </div>
+      <div *ngIf="card.badge" class="card-badge">{{ card.badge }}</div>
+    </div>
+  </div>
+  <div class="cta-row">
+    <button class="cta" (click)="openDemo()">Live Demo</button>
+    <button class="cta-alt" (click)="openScreens()">Screenshots</button>
+  </div>
+  <div class="portfolio-stats">
+    <span><i class="icon-star"></i> 327 Sales</span>
+    <span><i class="icon-refresh"></i> 30 Day Guarantee</span>
+    <span><i class="icon-unlimited"></i> Unlimited Usage</span>
+  </div>
+</section>

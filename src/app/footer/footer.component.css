@@ -1,0 +1,18 @@
+footer {
+  padding: 2rem 7vw;
+  background: #181818;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-top: 1px solid #222;
+}
+.footer-logo {
+  color: #e87d36;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+.footer-info {
+  font-size: 0.98rem;
+  color: #a0a0a0;
+}
