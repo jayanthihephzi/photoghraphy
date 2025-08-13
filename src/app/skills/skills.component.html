@@ -1,0 +1,9 @@
+<section class="skills">
+  <h2>Skills & Expertise</h2>
+  <ul class="skills-list">
+    <li *ngFor="let skill of skills">
+      <span class="icon">{{ skill.icon }}</span>
+      {{ skill.name }}
+    </li>
+  </ul>
+</section>
