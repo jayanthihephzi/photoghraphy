@@ -7,7 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class HeaderComponent {
   currentSection: string = 'home';
-  sections = ['home', 'about', 'portfolio', 'contact'];
+  sections = ['home', 'about', 'portfolio','skills','experience', 'contact'];
 
   @HostListener('window:scroll', [])
   onWindowScroll() {

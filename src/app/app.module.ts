@@ -16,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioShowcaseComponent } from './portfolio-showcase/portfolio-showcase.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SafeUrlPipe,
     HeaderComponent,
     FooterComponent,
-    PortfolioShowcaseComponent
+    PortfolioShowcaseComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

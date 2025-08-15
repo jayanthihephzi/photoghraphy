@@ -6,11 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
-  skills = [
-    { name: 'Adobe Premiere Pro', icon: '🎞️' },
-    { name: 'Photoshop', icon: '🖌️' },
-    { name: 'Final Cut Pro', icon: '✂️' },
-    { name: 'Color Grading', icon: '🎨' },
-    { name: 'Visual Storytelling', icon: '📽️' }
-  ];
+skills = [
+  { name: 'Adobe Premiere Pro', icon: '🎞️' },
+  { name: 'After Effects', icon: '✨' },
+  { name: 'DaVinci Resolve', icon: '🎬' },
+  { name: 'CapCut', icon: '✂️' },
+  { name: 'Color Correction & Grading', icon: '🎨' },
+  { name: 'Sound Design & Sync', icon: '🔊' },
+  { name: 'Visual Storytelling', icon: '📽️' },
+  { name: 'Cinematic Editing Styles', icon: '🌟' },
+  { name: 'Script-to-Screen Workflow', icon: '📝' },
+  { name: 'Timeline & Asset Management', icon: '🗂️' },
+  { name: 'Lighting & Framing Techniques', icon: '💡' }
+];
 }
